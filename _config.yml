@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: ScienceNet.in
+
+# Ruby Date Format to show dates of posts
+date_format: "%B %-d, %Y"
