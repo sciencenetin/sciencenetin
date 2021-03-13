@@ -1,6 +1,13 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
 body {
-  padding: 0;
-  margin: 0;
+  padding: 0.5%;
+  margin: 0.5%;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -13,6 +20,9 @@ pre {
   line-height: 1.5;
   color: #333333;
   text-align: left;
+  padding: 0.5%;
+  margin: 0.5%;
+  overflow-wrap: break-word;
 }
 
 .header {
@@ -39,7 +49,7 @@ pre {
     padding: 2%;
     margin: 1%;
     overflow-wrap: break-word;
-    border: 0.1pc solid #FBD647;
+    border: 0.1pc solid #DEDEDE;
     border-radius: 2pc;
     font-size: 1em;
     text-align: center;
@@ -105,6 +115,12 @@ div.scrollmenu a.active {
 
 div.scrollmenu a:hover {
     /* background-color: #777; */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 1%;
 }
 
 /* top menu ends */
