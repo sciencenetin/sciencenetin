@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
+    background-color: white;
   }
 }
 
@@ -43,6 +43,7 @@ pre {
 }
 
 .widgetSection_mid {
+    max-width: 500px;
     width: auto;
     height: auto;
     float: left;
@@ -53,6 +54,12 @@ pre {
     border-radius: 2pc;
     font-size: 1em;
     text-align: center;
+}
+
+.widgetSection_mid img  {
+    width: auto
+    height: auto;
+    border-radius: 1%;
 }
 
 .widgetSection_big_text {
@@ -117,10 +124,5 @@ div.scrollmenu a:hover {
     /* background-color: #777; */
 }
 
-img {
-  width: 100%;
-  height: auto;
-  border-radius: 1%;
-}
 
 /* top menu ends */
